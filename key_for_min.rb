@@ -8,7 +8,6 @@ name_hash.each do |name, number|
   if lowest_value = nil || number < lowest_value
     lowest_value = number
     lowest_key = name
-
  end
 end
 lowest_key
