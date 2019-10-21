@@ -6,3 +6,4 @@ name_hash = { :blake => 500, :ashley => 2, :adam => 1}
 name_hash.collect do |name, number|
   name
 end
+end
